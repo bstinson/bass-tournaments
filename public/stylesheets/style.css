@@ -1,0 +1,23 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: verdana, sans-serif; 
+	font-size: 8.75pt}
+
+img{
+	border:0;
+}
+
+#header{
+	width:760px;
+	margin:0 auto;
+}
+
+#header h2{
+	display:inline;
+}
+
+#logout {
+	float:right;
+	padding:10px;
+}

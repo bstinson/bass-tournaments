@@ -1,0 +1,5 @@
+<% unless flash[:notice].nil? %>
+	<div id="notice">
+		<%=  textilize(flash[:notice]) %>
+	</div>	
+<% end %>

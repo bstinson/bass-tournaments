@@ -1,0 +1,14 @@
+<% form_for :user do |form| -%>
+	<label for="user_name">User:</label>
+	<%= form.text_field :name %>
+	
+	<label for="user_password">Password:</label>
+	<%= form.password_field :password %>
+	
+	<label for="user_confirm_password">Confirm:</label>
+	<%= form.password_field :confirm_password %>
+	
+	<%= submit_tag "Submit", :class => "submit" %>
+<% end -%>
+
+<%= link_to "remove", :action => 'remove', :user_id => @user.id %>
